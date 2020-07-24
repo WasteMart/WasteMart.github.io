@@ -4,7 +4,7 @@
 
 // let btn_whatsapp = `<li class="hide-on-large-only"><a href="https://api.whatsapp.com/send?phone=${whatsapp_number}&text=${whatsapp_message}" target="_blank" class="btn-floating green tooltipped" data-position="left" data-tooltip="Pregúntanos"> <img class="fab-img" src="/img/social-networks/whatsapp-logo.svg"></a></li>
 
-//     <li class="hide-on-med-and-down"><a href="https://web.whatsapp.com/send?phone=${whatsapp_number}&text=${whatsapp_message}n" target="_blank" class="btn-floating green tooltipped" data-position="left" data-tooltip="Pregúntanos"> <img class="fab-img" src="/img/social-networks/whatsapp-logo.svg"></a></li>`;
+//     <li class="hide-on-med-and-down"><a href="https://web.whatsapp.com/send?phone=${whatsapp_number}&text=${whatsapp_message}" target="_blank" class="btn-floating green tooltipped" data-position="left" data-tooltip="Pregúntanos"> <img class="fab-img" src="/img/social-networks/whatsapp-logo.svg"></a></li>`;
 
 // let btn_fb = `<li><a href="https://www.facebook.com/${facebook_id}" target="_blank" class="btn-floating blue tooltipped" data-position="left" data-tooltip="Síguenos"> <img class="fab-img" src="/img/social-networks/facebook-logo.png"></a></li>`;
 
