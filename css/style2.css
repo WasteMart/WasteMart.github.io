@@ -1,0 +1,285 @@
+/*=================Variables de Color=================*/
+:root {
+	--base: #bad655;
+	--primary: #bad655;
+	--secondary: #153c66;
+	--cta: #bad655;
+	--light-gray: #d5d5d5;
+}
+
+/*=================CUSTOMS=================*/
+
+i {
+	-webkit-user-select: none;
+	/* Safari 3.1+ */
+	-moz-user-select: none;
+	/* Firefox 2+ */
+	-ms-user-select: none;
+	/* IE 10+ */
+	user-select: none;
+	/* Standard syntax */
+}
+
+.input-field .prefix.right {
+	right: 1rem;
+	cursor: pointer;
+}
+
+.header-logo {
+	/*    height: 13vh;*/
+	height: 70%;
+	margin: 10px 0 7px 0;
+}
+
+.fab-img {
+	height: 60%;
+	width: auto;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.social-footer {
+	width: 20px;
+}
+
+.fullheight {
+	min-height: 90vh !important;
+}
+
+.blanco-transparente {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+/*=================Stepper=================*/
+ul.stepper .step.active::before,
+ul.stepper .step.done::before {
+	background-color: var(--primary) !important;
+}
+
+/*=================RESPONSIVIDAD MOBIL=================*/
+@media only screen and (max-width: 900px) {
+	.valign-wrapper {
+		display: inherit;
+	}
+
+	.header-logo-mobile {
+		display: block;
+		height: 20% !important;
+		margin: 10px 0 7px 0;
+	}
+}
+
+.justify {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.thumbnail {
+	height: 50vh !important;
+}
+
+.header-logo {
+	height: 70%;
+	margin: 10px 0 7px 0;
+}
+
+.footer-logo {
+	height: 5vh;
+}
+
+.fab-img {
+	height: 60%;
+	width: auto;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.no-padding {
+	padding: 0 0 0 0;
+}
+
+.no-margin {
+	margin: 0 0 0 0;
+}
+
+/*=================COLORES=================*/
+.blanco-transparente {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.primary {
+	background-color: var(--primary) !important;
+}
+
+.primary-text {
+	color: var(--primary) !important;
+}
+
+.secondary {
+	background-color: var(--secondary) !important;
+}
+
+.secondary-text {
+	color: var(--secondary) !important;
+}
+
+.light-gray {
+	background-color: var(--light-gray) !important;
+}
+
+.light-gray-text {
+	color: var(--light-gray) !important;
+}
+
+/*=================CUSTOMS=================*/
+header.home-hero {
+	position: relative;
+	height: 89vh;
+	min-height: 25rem;
+	width: 100%;
+	overflow: hidden;
+	background-color: #d5d5d5;
+	background: url('../img/hero_video.jpg') no-repeat center center scroll;
+}
+
+header.home-hero .container {
+	position: relative;
+	z-index: 2;
+	height: 100%;
+}
+
+.text-container {
+	z-index: 5;
+}
+
+header.home-hero video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: 0;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+@media (max-width: 575.98px) {
+	header.home-hero video {
+		display: none;
+	}
+	.text-container {
+		top: 20vh;
+	}
+}
+
+header.home-hero img.poster {
+	height: 100vh;
+	min-height: 100vh;
+	object-fit: cover;
+	object-position: bottom right;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+@media (pointer: coarse) and (hover: none) {
+	header {
+		background: url('../img/hero_video.jpg') no-repeat bottom right scroll;
+	}
+}
+
+.banner-card {
+	border-radius: 25px;
+	padding: 5px 5px;
+	min-height: 50vh;
+}
+
+.col-padding {
+	padding: 0.75rem !important;
+}
+
+.cta {
+	border: 2px;
+	border-style: solid;
+	font-size: 1.5rem;
+	padding: 0 0;
+	width: 250px;
+	height: 54px;
+	border-radius: 25px;
+	text-align: center;
+}
+
+.white-primary {
+	background-color: white;
+	color: #bad655 !important;
+	border-color: #bad655;
+}
+
+.white-primary:hover {
+	background-color: #153c66;
+	color: #bad655 !important;
+	border-color: #bad655;
+}
+/*=================CUSTOMS=================*/
+
+.fab-img {
+	height: 60%;
+	width: auto;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.social-footer {
+	width: 20px;
+}
+
+.fullheight {
+	min-height: 98vh !important;
+}
+
+.hero {
+	min-height: 90vh !important;
+}
+
+.blanco-transparente {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+blockquote {
+	margin: 20px 0;
+	padding-left: 1.5rem;
+	border-left: 5px solid var(--light-gray);
+}
+
+.parallax-container {
+	min-height: 90vh;
+}
+
+/*=================RESPONSIVIDAD=================*/
+@media only screen and (max-width: 999px) {
+	.valign-wrapper {
+		display: inherit;
+	}
+
+	.header-logo {
+		display: block;
+		height: 38px;
+		margin: 10px 0 7px 0;
+	}
+}
