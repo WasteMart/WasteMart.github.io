@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es-MX">
 	<head>
 		<link
 			href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -9,98 +9,284 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
 		/>
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style2.css" />
 
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta
-			name="description"
-			content="Wastemart es una empresa mexicana, fundada en 2020 en la ciudad de
-        Querétaro, México. Estamos dedicados a convertir los desechos
-        industriales en materia prima."
-		/>
+		<meta name="description" content="" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>Wastemart</title>
+		<title>Home</title>
 	</head>
 
 	<body>
-		<!-- <nav class="white">
-			<div class="nav-wrapper container">
-				<a href="#!" class="brand-logo">
-					<img src="img/logos/logo-basic.png" class="header-logo" alt="" />
-				</a>
-				<a href="#" data-target="mobile-demo" class="sidenav-trigger"
-					><i class="material-icons">menu</i></a
+		<!-- ============================================================================================== -->
+		<div class="navbar-fixed">
+			<nav class="theme secondary">
+				<div class="nav-wrapper container">
+					<a href="/">
+						<img
+							src="/img/logos/logo-white.png"
+							alt="Wastemart Logo"
+							class="header-logo hide-on-med-and-down"
+						/>
+					</a>
+					<a href="/">
+						<img
+							src="/img/logos/logo-white.png"
+							alt="Wastemart Logo"
+							class="header-logo right hide-on-large-only"
+						/>
+					</a>
+					<a href="#" data-target="mobile-demo" class="sidenav-trigger"
+						><i class="material-icons">menu</i></a
+					>
+					<ul class="right hide-on-med-and-down">
+						<!-- Authentication Links -->
+						<li>
+							<a
+								href="https://docs.google.com/forms/d/e/1FAIpQLSfmsaP5Gziv4tZU_psFKF3t5FOgCCztAQ2qJ6phJr9wsf84Dw/viewform?usp=sf_link"
+								class="waves-effect waves-light btn primary"
+								target="_blank"
+							>
+								Registro
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		<ul class="sidenav" id="mobile-demo">
+			<li>
+				<div class="user-view">
+					<div class="background theme secondary"></div>
+					<a href="/"
+						><img class="responsive-img" src="/img/logos/logo-white.png"
+					/></a>
+				</div>
+			</li>
+			<li>
+				<a
+					href="https://docs.google.com/forms/d/e/1FAIpQLSfmsaP5Gziv4tZU_psFKF3t5FOgCCztAQ2qJ6phJr9wsf84Dw/viewform?usp=sf_link"
+					class="waves-effect waves-light btn primary"
+					target="_blank"
 				>
-			</div>
-		</nav> -->
-
-		<ul class="sidenav" id="mobile-demo"></ul>
-		<div class="scrollspy" id="top"></div>
-
-		<div class="section light-gray secondary-text fullheight valign-wrapper">
-			<div class="container center-align">
-				<div class="row">
+					Registro
+				</a>
+			</li>
+			<li class="divider"></li>
+		</ul>
+		<!-- ============================================================================================== -->
+		<header class="home-hero" role="banner">
+			<video autoplay="" id="heroVideo" loop="" muted="">
+				<source src="img/hero_video.mp4" type="video/mp4" />
+				<source src="img/hero_video.webm" type="video/webm" />
+				<source src="img/hero_video.ogv" type="video/ogv" />
+			</video>
+			<div class="container text-container text-primary valign-wrapper">
+				<div class="row center">
 					<div class="col s12">
-						<img src="img/logos/logo-basic.png" class="responsive-img" alt="" />
+						<img
+							src="img/logos/logo-basic.png"
+							alt="logo wastemart"
+							class="responsive-img"
+						/>
 					</div>
 					<div class="col s12 no-margin">
 						<h1>Convierte tus residuos en ingresos.</h1>
 					</div>
-					<div class="col s12">
-						<h4>En construcción.. / Under construction</h4>
-					</div>
 				</div>
 			</div>
-		</div>
-		<div class="section secondary primary-text fullheight valign-wrapper">
-			<div class="container center-align">
+		</header>
+		<!-- ============================================================================================== -->
+		<div class="section secondary fullheight valign-wrapper">
+			<div class="container">
 				<div class="row">
-					<div class="col s12">
-						<blockquote>
-							<h3>
-								<strong>WASTEMART</strong> es una empresa mexicana, fundada en 2020.
-								Estamos dedicados a convertir los desechos industriales en materia
-								prima.
-							</h3>
-						</blockquote>
-					</div>
-					<div class="col l6 s12">
-						<h3>Nuestra misión</h3>
-						<p>
-							Proporcionar un espacio donde las industrias puedan hacer sinergia y
-							convertir sus residuos en materia prima de valor.
+					<div class="col s12 l6 white-text">
+						<h3>¿Gastas tiempo y dinero en el manejo de tus residuos?</h3>
+						<p class="primary-text">
+							¿No sabes a dónde van, cómo son utilizados ni los impactos ambientales
+							que generan?
 						</p>
-					</div>
-					<div class="col l6 s12">
-						<h3>Nuestra visión</h3>
 						<p>
-							Ser ícono a nivel mundial por el número de empresas que intercambian
-							materiales para sus procesos de fabricación.
+							En WasteMart creemos que el desarrollo económico puede crecer de la mano
+							de la responsabilidad social y ambiental.
 						</p>
-					</div>
-				</div>
-				<div class="row center">
-					<div class="col s12">
-						<h1>Contáctanos</h1>
+						<p>
+							Somos un espacio para que las industrias hagan sinergia y conviertan sus
+							residuos en materia prima de valor
+						</p>
 						<a
-							href="mailto:wastemart.admon@gmail.com"
-							class="waves-effect waves-light btn-large primary secondary-text"
+							href="https://docs.google.com/forms/d/e/1FAIpQLSfmsaP5Gziv4tZU_psFKF3t5FOgCCztAQ2qJ6phJr9wsf84Dw/viewform?usp=sf_link"
+							class="waves-effect waves-light btn primary"
 							target="_blank"
 						>
-							<i class="material-icons right">mail</i>
-							Envia un correo
+							Registrate y comienza a generar sinergias
 						</a>
+					</div>
+					<div
+						class="col s12 l6 white col-padding valign-wrapper"
+						style="border-radius: 0 60px 60px 0; min-height: 50vh"
+					>
+						<img src="img/logos/logo-basic.png" alt="" class="responsive-img" />
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- ============================================================================================== -->
+		<div class="section white secondary-text fullheight valign-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col s12">
+						<h1><strong>NOSOTROS</strong></h1>
+					</div>
+					<div class="col s12 l4">
+						<h3>
+							Somos una <strong class="primary-text">EMPRESA MEXICANA</strong> fundada
+							en 2020.
+						</h3>
+						<h5>
+							Estamos dedicados a convertir los desechos industriales en materia prima.
+						</h5>
+						<a
+							class="waves-effect waves-light btn-large cta white-primary"
+							href="mailto:info@wastemart.com.mx"
+						>
+							Contactanos
+						</a>
+					</div>
+					<div class="col s12 l4 center col-padding">
+						<div class="primary white-text banner-card">
+							<h2>
+								<i class="large material-icons">terrain</i>
+								<i class="large material-icons">emoji_flags</i>
+							</h2>
+							<h3>MISIÓN</h3>
+
+							<h5>
+								Proporcionar un espacio donde las industrias puedan hacer sinergia y
+								convertir sus residuos en materia prima de valor.
+							</h5>
+						</div>
+					</div>
+					<div class="col s12 l4 center col-padding">
+						<div class="secondary white-text banner-card">
+							<h3>VISIÓN</h3>
+							<h5>
+								Ser ícono a nivel mundial por el número de empresas que intercambian
+								materiales para sus procesos de fabricación.
+							</h5>
+							<h2>
+								<i class="large material-icons">public</i>
+								<i class="large material-icons">compare_arrows</i>
+							</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ============================================================================================== -->
+		<footer class="page-footer custom-footer theme secondary">
+			<div class="container">
+				<div class="row custom-row">
+					<div class="col l5 s12">
+						<img
+							src="/img/logos/logo-white.png"
+							alt="Wastemart Logo white"
+							class="footer-logo"
+						/>
+						<p class="justify">
+							En Wastemart queremos convertir residuos en ingresos. Somos una empresa
+							dedicada a fomentar la economía circular en México, queremos ser un punto
+							de encuentro para que todos los actores en la cadena de valor puedan
+							ofrecer servicios y productos.
+						</p>
+					</div>
+					<div class="col l4 s12">
+						<h6><i class="material-icons">location_on</i>Ubícanos en:</h6>
+
+						<p class="texto-footer">
+							<a
+								class="white-text"
+								target="_blank"
+								href="https://goo.gl/maps/2sV9seeuLmpfbjpQ9"
+								>Ejército Republicano #121 3er piso Col. Carretas, C.P. 76050 Querétaro,
+								México</a
+							>
+							<br />
+							Teléfono:<a class="white-text" href="tel:+524428772515"
+								>+52 442 877 2515</a
+							>
+						</p>
+					</div>
+					<div class="col l3 s12">
+						<h6>Más información</h6>
+						<ul>
+							<li>
+								<a href="#!" target="_blank" class="theme-text text-primary"
+									>Política de privacidad</a
+								>
+							</li>
+							<li>
+								<a href="#!" target="_blank" class="theme-text text-primary"
+									>Términos y condiciones</a
+								>
+							</li>
+							<li>
+								<a href="#!" target="_blank" class="theme-text text-primary"
+									>Preguntas frecuentes</a
+								>
+							</li>
+						</ul>
+						<h6>Siguenos</h6>
+						<div class="row center">
+							<div class="col s2">
+								<a href="https://www.facebook.com/WasteMartMX" target="_blank"
+									><img
+										class="social-footer"
+										src="/img/social-networks/facebook-logo.png"
+								/></a>
+							</div>
+							<div class="col s2">
+								<a href="https://www.linkedin.com/company/wastemartmx" target="_blank"
+									><img
+										class="social-footer"
+										src="/img/social-networks/linkedin-logo.svg"
+								/></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					<p class="right">
+						Made using
+						<a
+							class="orange-text text-lighten-3"
+							href="http://materializecss.com"
+							target="_blank"
+							>Materialize</a
+						>
+					</p>
+					<p>©WasteMart 2020</p>
+				</div>
+			</div>
+		</footer>
 
 		<script
 			type="text/javascript"
 			src="https://code.jquery.com/jquery-3.2.1.min.js"
 		></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script>
+			// this object must follow the MailgoConfig type
+			window.mailgoConfig = {
+				dark: true,
+				showFooter: false,
+			};
+		</script>
+		<script src="https://unpkg.com/mailgo@0.11.1/dist/mailgo.min.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>
